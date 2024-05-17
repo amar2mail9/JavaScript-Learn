@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body
+{
+    background-color: #ddd;
+}
+
+#container
+{
+    width: 75%;
+    background-color: #fff;
+    min-height: 100vh;
+    margin: 0 auto;
+    /* display: flex; */
+    border-left:10px groove blue ;
+    border-right:10px groove blue ;
+    padding: 32px 24px;
+    overflow-x: hidden;
+}
+
+#title
+{
+    text-align: center;
+}
+
+#form-card
+{
+    width: 100%;
+    
+    box-shadow: 0 0 10px 0 #0f0e0e6e;
+    margin: 24px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 24px;
+}
+
+#marksheet-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#form-group
+{
+    display: flex;
+    flex-direction: column;
+   
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 6px;
+   
+}
+
+#marksheet-form label
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#marksheet-form input, #choose-gender
+{
+    border: 1px solid #ccc;
+    padding: 14px;
+}
+
+
+#horizontal
+{
+display: flex;
+gap: 24px;
+
+}
+
+
+#add-subject
+{
+    border: none;
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 16px 24px;
+    border-radius: 4px;
+}
+
+
+#add-subject i
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+#horizontal input
+{
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    box-shadow:  0 0 5px 0 rgba(67, 66, 66, 0.593) ;
+}
+
+
+table{
+   margin-top: 32px;
+   box-shadow: 0 0 10px 0 #ddd;
+}
+
+th, tr ,td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 10px;
+
+}
+
+#generate
+{
+    border: none;
+    background-color:darkmagenta;
+    color: #fff;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 16px 24px;
+    border-radius: 4px;
+    margin-left: auto;
+
+}
+
+#dynamic-area{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;  
+}
+
+
+#copyright
+{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+#warning
+{
+    display: block;
+    text-align: center;
+}
+
+/*  Delete button */
+.delete-button{
+    background-color: deeppink;
+    border: none;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+}
+
+.delete-button:hover{
+    cursor: pointer;
+    background-color: red;
+}
